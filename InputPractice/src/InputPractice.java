@@ -8,8 +8,9 @@ public class InputPractice {
 		int interger = input.nextInt();
 		
 		System.out.println("Enter second number ");
+		int interger2 = input.nextInt();
 		
-		int integer = input.nextInt();
+		System.out.println();
 		
 		
 		
