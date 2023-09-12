@@ -14,12 +14,12 @@ public class Conditionals {
 		} else if (num <= 0) {
 			System.out.println("Your number is negative");
 		
-	}
+		}
 		
 
-		}
+	}
 	
 
-	}
+}
 
 
