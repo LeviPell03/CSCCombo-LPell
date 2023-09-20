@@ -5,7 +5,7 @@ public class Cylinder {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 
-		final double PI = 3.141592653;
+		double PI = 3.141592653;
 
 		System.out.println("Please enter radius of the circle");
 		int radius = input.nextInt();
@@ -21,12 +21,12 @@ public class Cylinder {
 
 	}
 
-	public static double computeArea(double radius) {
+	public static double computeArea(double radius, double PI) {
 		return PI * radius * radius;
 	}
 
-	public static double computeVolume(double area) {
-		return 
+	public static double computeVolume(double area, double PI) {
+		return PI * radius * radius;
 
 	}
 
