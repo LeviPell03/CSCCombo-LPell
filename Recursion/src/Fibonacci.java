@@ -9,7 +9,7 @@ public class Fibonacci {
 		System.out.println(fibonacci(numTerm));
 	}
 	public static long fibonacci(int term) {
-		if (term==0) {
+		if (term==0 || term==1) {
 			return term;
 		}
 		if (fibArray[term] !=0) {
