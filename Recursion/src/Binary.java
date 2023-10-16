@@ -3,10 +3,10 @@
 public class Binary {
 
 	public static void main(String[] args) {
-
+		int bin1 = 0;
 		int num = 256;
 		displayBinary(num);
-		System.out.println();
+		
 
 	}
 
@@ -14,6 +14,7 @@ public class Binary {
 		if (num == 0) {
 			return;
 		}
+		
 		int bin1 = num%2;
 		num = num/2;
 		displayBinary(num);
