@@ -8,6 +8,8 @@ public class Person {
 	private String lastName;
 	private int age;
 	private int heightInInches;
+	private Car jeep;
+	private Car[] cars;
 	
 	// Constructors
 	
@@ -17,14 +19,19 @@ public class Person {
 		firstName = "Levi";
 	}
 	
-	public Person (String firstName, String lastName, int age, int heightInInches) {
+	public Person (String firstName, String lastName, int age, int heightInInches, int numCars) {
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.heightInInches = heightInInches;
 		this.age = age;
+		this.jeep = new Car( "green", 25, 1, 0);
+		this.cars = new Car[numCars];
+		for(int i = 0; i < numCars; i++) {
+			cars[i] = new Car();
+		}
 	
 	}
-	
+
 	// Access
 	public String getfirstName() {
 		return firstName;
@@ -42,9 +49,17 @@ public class Person {
 		return age;
 	}
 	
+	
+	
+	public Car[] getJeep() {
+		return cars;
+	}
+	
+	
+	
 	//toString()
 	public String toString() {
-		String str = "Person is " + firstName + ","  + lastName + "," + heightInInches + ", " + age + " old";
+		String str = " This person is " + firstName + ","  + lastName + "," + heightInInches + ", " + age + " old";
 			return str;
 	}
 }
