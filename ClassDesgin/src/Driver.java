@@ -9,7 +9,7 @@ public class Driver {
 		myCar.selfClean();
 		myCar.fillGas(20);
 		
-		myCar.setWheels(14, "Alloy");
+
 
 		Wheel[] wheels = myCar.getWheels();
 		for (Wheel wheel : wheels) {

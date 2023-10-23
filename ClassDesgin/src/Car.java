@@ -33,7 +33,7 @@ public class Car {
 		this.amountOfGas = amountOfGas;
 		wheels = new Wheel[numWheels];
 		for (int i = 0; i < wheels.length; i++) {
-			wheels[i] = new Wheel(color, i);
+			wheels[i] = new Wheel("Steel", 25);
 			
 		}
 		ripper = new SteeringWheel (22, true, "wood");
@@ -72,10 +72,10 @@ public class Car {
 		return wheels;
 	}
 
-	public void setWheels(int radius, String material) {
+	public void setWheels(String material, int radius) {
 		for (int i = 0; i < wheels.length; i++) {
-			wheels[i].setRadius(radius);
 			wheels[i].setMaterial(material);
+			wheels[i].setRadius(radius);
 		}
 		
 	}
