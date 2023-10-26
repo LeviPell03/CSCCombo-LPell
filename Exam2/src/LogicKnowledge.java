@@ -24,5 +24,15 @@ public class LogicKnowledge {
 		}
 	
 	}
+	
+	public static boolean equiDistance(int a, int b, int c) {
+		int small = a;
+		int mid = b;
+		int large = c;
+		if (a<b && b<c) {
+			if (Math.)
+		}
+		
+	}
 
 }
