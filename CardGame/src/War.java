@@ -10,6 +10,8 @@ public class War {
 		
 		deck.Shuffle();
 		System.out.println(deck);
+		
+		Deck.Shuffle1(deck);
 
 	}
 	

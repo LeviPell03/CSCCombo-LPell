@@ -3,7 +3,9 @@ import java.util.Random;
 
 
 public class Deck {
-	private Card[] cards;
+	private static Card[] cards;
+	private static Random rand = new Random();
+
 
 	private final int STD_NUMBER_OF_CARDS = 52;
 
@@ -17,6 +19,8 @@ public class Deck {
 				cardIndex++;
 
 			}
+			// Methods
+		
 		}
 	}
 	// Getters and Setters
@@ -30,16 +34,31 @@ public class Deck {
 	}
 	
 	public void Shuffle() {
-		Random rand = new Random();
-		
 		for (int i = 0; i < cards.length; i++) {
 			int index = rand.nextInt(cards.length);
+				swapCards(i, index);
 			 Card tempCard = cards[i];
 			 cards[i] = cards[index];
 			 cards[index] = tempCard;
-			 
-			 
 		}
+	}	
+		public static void Shuffle1(Deck deck) {
+			Card[] cards = deck.getCards();
+			for (int i = 0; i < cards.length; i++) {
+				int index = rand.nextInt(cards.length);
+				swapCards(i, index);
+			}
+				
+			 
+	}
+	
+			
+	private static void swapCards(int index1, int index2) {
+		Card tempCard = cards[index1];
+		cards[index1] = cards[index2];
+		cards[index2] = tempCard;
+	
+	
 	}
 	
 	@Override
