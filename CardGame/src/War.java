@@ -12,6 +12,8 @@ public class War {
 		System.out.println(deck);
 		
 		Deck.Shuffle1(deck);
+		
+		deck.bubbleSort();
 
 	}
 	
