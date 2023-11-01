@@ -37,7 +37,7 @@ public class Deck {
 	public void Shuffle() {
 		for (int i = 0; i < cards.length; i++) {
 			int index = rand.nextInt(cards.length);
-				swapCards(cards, i, index);
+				swapCards(i, index);
 			 Card tempCard = cards[i];
 			 cards[i] = cards[index];
 			 cards[index] = tempCard;
@@ -47,7 +47,6 @@ public class Deck {
 			Card[] cards = deck.getCards();
 			for (int i = 0; i < cards.length; i++) {
 				int index = rand.nextInt(cards.length);
-				swapCards(cards, i, index);
 				
 			}
 				
@@ -55,7 +54,7 @@ public class Deck {
 	}
 	
 			
-	private static void swapCards(Card[] cards2, int index1, int index2) {
+	private static void swapCards(int index1, int index2) {
 		Card tempCard = cards[index1];
 		cards[index1] = cards[index2];
 		cards[index2] = tempCard;
@@ -73,8 +72,9 @@ public class Deck {
 		for (int i = 0; i < cards.length; i++) {
 			for (int j = 1; j < cards.length - i; j++) {
 				if (cards[j - 1].compareTo(cards[j]) > 0) {
-					swapCards(cards, j - 1, j);
+					swapCards(j - 1, j);
 				}
+
 			}
 		}
 
