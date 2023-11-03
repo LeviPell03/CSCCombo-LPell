@@ -46,12 +46,15 @@ public class War {
 			}
 
 		}
+		System.out.println(deck);
 		if (winP1.size() > winP2.size()) {
 			System.out.println("Player 1 wins!!");
 		} else if (winP1.size() < winP2.size()) {
 			System.out.println("Player 2 wins");
 		} else {
 			System.out.println("It's a tie");
+		
 		}
+		
 	}
 }
