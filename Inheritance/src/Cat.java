@@ -6,7 +6,15 @@ public class Cat extends Animal {
 	
 	public Cat(double height, double weight, String color) {
 		super(height, weight);
-		color = "Grey";
+		this.color = color;
+	}
+	
+	
+	public boolean equals ( Cat oCat) {
+		if ( oCat.color.equals(color)) {
+		return true;
+	}
+		return false;
 	}
 	
 	@Override
@@ -15,7 +23,7 @@ public class Cat extends Animal {
 	}
 	@Override
 	public String toString() {
-		return "Cat [color=" + color + "]";
+		return "Cat [color is " + color + "]";
 	}
 	
 	

@@ -23,7 +23,7 @@ public class Animal {
 	//toString
 	@Override
 	public String toString() {
-		return "Animal [weight=" + weight + ", height=" + height + "]";
+		return "Animal [weight is equal to " + weight + ", height is equal to " + height + "]";
 	}
 	
 	
