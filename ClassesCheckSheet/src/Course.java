@@ -5,21 +5,21 @@ public class Course {
 	private int numStudents;
 	private int maxStudents;
 	double credits;
-	
+
 	// no arg
-	public Course () {
-		
+	public Course() {
+
 	}
-	
+
 	// Constructors
-	public Course(String cSC1060, int numStudents, int maxStudents, double credits) {
+	public Course(String CSC1060, int numStudents, int maxStudents, double credits) {
 		super();
-		courseNum = cSC1060;
+		courseNum = CSC1060;
 		this.numStudents = numStudents;
 		this.maxStudents = maxStudents;
 		this.credits = credits;
 	}
-	
+
 	// getters, setters
 
 	public String getCSC1060() {
@@ -53,17 +53,13 @@ public class Course {
 	public void setCredits(double credits) {
 		this.credits = credits;
 	}
-	//toString
+
+	// toString
 	@Override
 	public String toString() {
-		return "Course [CSC1060=" + courseNum + ", numStudents=" + numStudents + ", maxStudents=" + maxStudents
-				+ ", credits=" + credits + "]";
-		
+		return "Course [CSC1060 is " + courseNum + ", numStudents is " + numStudents + ", maxStudents is " + maxStudents
+				+ ", credits is " + credits +  "]";
+
 	}
-	
-	
-	
-	
-	
-	
+
 }

@@ -2,7 +2,13 @@
 public class CSclasses {
 
 	public static void main(String[] args) {
-		// Driver
+		// Main (Driver)
+		InPersonCourse myInPersonCourse = new InPersonCourse(20);
+		System.out.println(myInPersonCourse);
+		FullRemoteCourse myFullRemoteCourse = new FullRemoteCourse("Levi, Blah, Blah, Blah");
+		System.out.println(myFullRemoteCourse);
+		
+		
 		Course[] courseList = new Course[6];
 		for (int i = 0; i < 3; i++) {
 			courseList[i] = new Course();
