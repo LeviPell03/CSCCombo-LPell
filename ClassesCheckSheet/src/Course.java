@@ -14,7 +14,7 @@ public class Course {
 	// Constructors
 	public Course(String CSC1060, int numStudents, int maxStudents, double credits) {
 		super();
-		courseNum = CSC1060;
+		courseNum = courseNum;
 		this.numStudents = numStudents;
 		this.maxStudents = maxStudents;
 		this.credits = credits;
