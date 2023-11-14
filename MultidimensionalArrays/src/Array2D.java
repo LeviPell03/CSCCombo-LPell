@@ -22,7 +22,6 @@ public class Array2D {
 		doubleArr = new int[3][4];
 
 	}
-
 	char[][] charArr = new char[3][4];
 	char ch = 'a'; {
 	
