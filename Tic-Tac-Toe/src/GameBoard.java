@@ -8,9 +8,6 @@
 		static String turn;
 
 
-		// CheckWinner method will 
-		// decide the combination 
-		// of three box given below.
 		static String checkWinner()
 		{
 			for (int a = 0; a < 8; a++) {
@@ -42,7 +39,7 @@
 					line = board[2] + board[4] + board[6];
 					break;
 				}
-				//For X winner
+				
 				if (line.equals("XXX")) {
 					return "X";
 				}
@@ -116,10 +113,7 @@
 			while (winner == null) {
 				int numInput;
 			
-			// Exception handling.
-			// numInput will take input from user like from 1 to 9.
-			// If it is not in range from 1 to 9.
-			// then it will show you an error "Invalid input."
+
 				try {
 					numInput = in.nextInt();
 					if (!(numInput > 0 && numInput <= 9)) {
@@ -134,8 +128,7 @@
 					continue;
 				}
 				
-				// This game has two player x and O.
-				// Here is the logic to decide the turn.
+				
 				if (board[numInput - 1].equals(
 						String.valueOf(numInput))) {
 					board[numInput - 1] = turn;
@@ -156,8 +149,7 @@
 				}
 			}
 		
-			// If no one win or lose from both player x and O.
-			// then here is the logic to print "draw".
+			
 			if (winner.equalsIgnoreCase("draw")) {
 				System.out.println(
 					"It's a draw! Thanks for playing.");

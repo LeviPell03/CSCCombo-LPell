@@ -1,6 +1,3 @@
-/* Copyright notice
- * 
- */
 public class Array2D {
 
 	public static void main(String[] args) {
@@ -20,6 +17,7 @@ public class Array2D {
 		for (int i = 0; i < doubleArr.length; i++)
 			for (int j = 0; j < doubleArr[i].length; j++) {
 				System.out.print(doubleArr[i][j] + " ");
+				
 			}
 		doubleArr = new int[3][4];
 

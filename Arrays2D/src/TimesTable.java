@@ -33,8 +33,8 @@ public class TimesTable {
 		}
 	}
 	
-	// toString()
 	
+	// toString()
 	/**
 	 * Uses a toString() to print out my Times table.
 	 * 
