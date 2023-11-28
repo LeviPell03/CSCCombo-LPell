@@ -15,12 +15,12 @@ public class FileWrite {
 		}
 		
 		// PrintWriter printer = new PrintWriter(myFile.getName());
-		PrintWriter printer = new PrintWriter(new FileOutputStream(myFile.getName(), false));
+		PrintWriter printer = new PrintWriter(new FileOutputStream(myFile, false));
 		printer.println("The moon is full today");
 		printer.println("I'm excited!");
 		printer.println("It's an auspicious day!");
 		
-		printer.flush();
+		// printer.flush();
 		printer.close();
 
 	}

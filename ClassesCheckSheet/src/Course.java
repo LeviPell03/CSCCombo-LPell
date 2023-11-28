@@ -12,9 +12,9 @@ public class Course {
 	}
 
 	// Constructors
-	public Course(String CSC1060, int numStudents, int maxStudents, double credits) {
+	public Course(String courseNum, int numStudents, int maxStudents, double credits) {
 		super();
-		courseNum = courseNum;
+		this.courseNum = courseNum;
 		this.numStudents = numStudents;
 		this.maxStudents = maxStudents;
 		this.credits = credits;
@@ -35,7 +35,7 @@ public class Course {
 	}
 
 	public void setNumStudents(int numStudents) {
-		this.numStudents = numStudents;
+		this.numStudents = 5;
 	}
 
 	public int getMaxStudents() {
@@ -43,7 +43,7 @@ public class Course {
 	}
 
 	public void setMaxStudents(int maxStudents) {
-		this.maxStudents = maxStudents;
+		this.maxStudents = 10;
 	}
 
 	public double getCredits() {
@@ -51,15 +51,23 @@ public class Course {
 	}
 
 	public void setCredits(double credits) {
-		this.credits = credits;
+		this.credits = 6.5;
 	}
 
 	// toString
+	
 	@Override
 	public String toString() {
-		return "Course [CSC1060 is " + courseNum + ", numStudents is " + numStudents + ", maxStudents is " + maxStudents
-				+ ", credits is " + credits +  "]";
-
+		return "Course [courseNum=" + courseNum + ", numStudents=" + numStudents + ", maxStudents=" + maxStudents
+				+ ", credits=" + credits + "]";
 	}
+
+	
+	public String dbString() {
+		return "Course" + "," + maxStudents + "," + numStudents + "," + credits;
+		
+		
+	}
+
 
 }
