@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class FileRead {
 
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws IOException  {
 		// TODO Main
 		File readFile = new File("C:\\Users\\S03027105\\testwritehome.txt");
 		Scanner input = new Scanner(readFile);

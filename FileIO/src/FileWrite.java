@@ -10,7 +10,7 @@ public class FileWrite {
 		File myFile = new File("C:\\Users\\S03027105\\testwritehome.txt");
 		if (!myFile.exists()) {
 			if (myFile.createNewFile() ) {
-				System.out.println("New file created" +myFile.getName());
+				System.out.println("New file created" + myFile.getName());
 			}
 		}
 		

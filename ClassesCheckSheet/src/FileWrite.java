@@ -1,15 +1,26 @@
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.PrintWriter;
 import java.io.Writer;
 
 public class FileWrite {
 
-	File writeFile = new File("C:\\Users\\S03027105\\CourseCSV.csv");
+	private PrintWriter printer;
 	
-	if(!writeFile.exists() ) {
-		if(writeFile.createNewFile() ) {
-			System.out.println("New file created" + writeFile.getName());
-		}
+	public FileWrite (String dbFile) throws FileNotFoundException {
+		File courseFile = new File (dbFile);
+		printer = new PrintWriter (new FileOutputStream(courseFile, true));
 	}
+	
+	public void writeFile(Course course) {
+		printer.println(course.dbString());
+	}
+	
+	public void close() {
+	printer.close();
+}
+
+	
+		
 }
