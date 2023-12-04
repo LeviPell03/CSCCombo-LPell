@@ -1,4 +1,5 @@
 
+
 public class ExceptionHandling {
 
 	public static void main(String[] args) {
@@ -30,11 +31,10 @@ public class ExceptionHandling {
 	
 	}
 
-	public static void setIndex10 (int[] array) {
+	public static void setIndex10 (int[] array) throws ArrayIndexOutOfBoundsException  {
 		if (array.length < 11) {
 			throw new ArrayIndexOutOfBoundsException("There are less than 11 elements, dumbo.");
 		}
-		array[10] = 5;
+	
 	}
-
 }
