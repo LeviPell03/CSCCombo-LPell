@@ -7,7 +7,7 @@ public class SwitchStatement {
 		int cost = 0;
 		
 		Scanner input = new Scanner(System.in);
-		System.out.println("Select an item: ");
+		System.out.println(" Please select food, drink or cup: ");
 		String Item = input.nextLine();
 	
 	
