@@ -35,23 +35,7 @@ public class Card {
 	}
 
 	public int compareTo(Card oCard) {
-		if (suit < oCard.suit) {
-			return -5;
-		}
-
-		else if (suit > oCard.suit) {
-			return 5;
-		}
-
-		if (rank < oCard.rank) {
-			return -5;
-		}
-
-		else if (rank > oCard.rank) {
-			return 5;
-		}
-
-		return 0;
+		
 	}
 
 	@Override
