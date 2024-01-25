@@ -1,0 +1,293 @@
+[33mcommit ad917da97ec672d8d72a470da9b3b6f632a91a82[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Pell <S03027105@ccc.ccofc.edu>
+Date:   Thu Dec 7 12:44:40 2023 -0700
+
+    Final Exam
+
+[33mcommit daf78edd2e378d64db0d6793d54a1185e4aca0da[m
+Author: Pell <S03027105@ccc.ccofc.edu>
+Date:   Tue Dec 5 12:44:57 2023 -0700
+
+    Packet
+
+[33mcommit d8b40f89dafab24421c310a549e995d5ac459326[m
+Author: Pell <S03027105@ccc.ccofc.edu>
+Date:   Mon Dec 4 12:33:11 2023 -0700
+
+    Break and Continue
+
+[33mcommit 24ca9159553e80f1363decf618f2111e85701223[m
+Author: Pell <S03027105@ccc.ccofc.edu>
+Date:   Thu Nov 30 12:35:00 2023 -0700
+
+    Exceptions
+
+[33mcommit dd3d7fbee532c791916cbd565ff2a7785b908b3d[m
+Author: Pell <S03027105@ccc.ccofc.edu>
+Date:   Wed Nov 29 12:41:35 2023 -0700
+
+    Database
+
+[33mcommit afb3f311571d39c1d4115898c0b30358e4ca64d5[m
+Author: Pell <S03027105@ccc.ccofc.edu>
+Date:   Tue Nov 28 12:43:30 2023 -0700
+
+    CSV
+
+[33mcommit c6bf96ed434ee961b32f084b5f883e2e71c1878a[m
+Author: Pell <S03027105@ccc.ccofc.edu>
+Date:   Mon Nov 27 12:40:14 2023 -0700
+
+    FileWriter
+
+[33mcommit 760ca73740328009a3616d407fe91039a20144c2[m
+Author: Pell <S03027105@ccc.ccofc.edu>
+Date:   Fri Nov 17 12:36:58 2023 -0700
+
+    Testing
+
+[33mcommit f0b98ab06693ed8a7c3a6f93ffd8f22dcac20c75[m
+Author: Pell <S03027105@ccc.ccofc.edu>
+Date:   Thu Nov 16 12:38:03 2023 -0700
+
+    Exam3
+
+[33mcommit c2e5d4a74dd546d95ca188a0afd917ad09d7298f[m
+Author: Pell <S03027105@ccc.ccofc.edu>
+Date:   Wed Nov 15 12:31:44 2023 -0700
+
+    Doc!
+
+[33mcommit 312be22527293f60ab0e6e821f0dfebf1a7b4574[m
+Author: Pell <S03027105@ccc.ccofc.edu>
+Date:   Tue Nov 14 12:44:20 2023 -0700
+
+    TICTAC
+
+[33mcommit 0520b39e217a5a077c37b021f9aba431d4b0849b[m
+Author: Pell <S03027105@ccc.ccofc.edu>
+Date:   Mon Nov 13 12:45:05 2023 -0700
+
+    Table
+
+[33mcommit e60723c26a522253777c6ff55f472b3e4fb390c4[m
+Author: Pell <S03027105@ccc.ccofc.edu>
+Date:   Thu Nov 9 12:42:43 2023 -0700
+
+    Course
+
+[33mcommit 202de8ade0ebe747d410f9e69887141cac8f51f9[m
+Author: Pell <S03027105@ccc.ccofc.edu>
+Date:   Wed Nov 8 12:42:39 2023 -0700
+
+    Farm
+
+[33mcommit 7ef3f9cbd5a829ddaa28f04e0dec26b1a6c406e0[m
+Author: Pell <S03027105@ccc.ccofc.edu>
+Date:   Tue Nov 7 12:40:35 2023 -0700
+
+    Inheritance
+
+[33mcommit 5bbd7a284684bae3fbc38e3de3ce8b460375dfe8[m
+Author: Pell <S03027105@ccc.ccofc.edu>
+Date:   Fri Nov 3 12:42:25 2023 -0600
+
+    BillingCompany
+
+[33mcommit a0784534746f771d6fe46fb594e335751fce6b80[m
+Author: Pell <S03027105@ccc.ccofc.edu>
+Date:   Thu Nov 2 12:38:49 2023 -0600
+
+    Pile
+
+[33mcommit 326ff85279ad4d1a1272fa4d2756d884938e7b16[m
+Author: Pell <S03027105@ccc.ccofc.edu>
+Date:   Wed Nov 1 12:43:30 2023 -0600
+
+    List
+
+[33mcommit d6d2c23c9c3a77de7afcc0370986a3a98b7aedc9[m
+Author: Pell <S03027105@ccc.ccofc.edu>
+Date:   Tue Oct 31 12:40:36 2023 -0600
+
+    Sort
+
+[33mcommit 22f2d182af45ea90c444385e788d1282b2cbaafd[m
+Author: Pell <S03027105@ccc.ccofc.edu>
+Date:   Mon Oct 30 12:37:36 2023 -0600
+
+    Deck
+
+[33mcommit 3d78412b635a738ff89e5334e8a74ec523c978f0[m
+Author: Pell <S03027105@ccc.ccofc.edu>
+Date:   Fri Oct 27 12:38:49 2023 -0600
+
+    Shuffle
+
+[33mcommit b001386f96d22f86f7f32660baf9a443b78c791e[m
+Author: Pell <S03027105@ccc.ccofc.edu>
+Date:   Thu Oct 26 12:40:14 2023 -0600
+
+    Card Game
+
+[33mcommit 768300e117ead345472174d44a8e5779b852936d[m
+Author: Pell <S03027105@ccc.ccofc.edu>
+Date:   Tue Oct 24 12:41:08 2023 -0600
+
+    Exam 2
+
+[33mcommit ee67dfebbf27048aebb8bdcfc6d3cef5ff7a072d[m
+Author: Pell <S03027105@ccc.ccofc.edu>
+Date:   Mon Oct 23 12:40:10 2023 -0600
+
+    Battle
+
+[33mcommit e5d9785e70f886f1fd8823ede1f454f467605cfe[m
+Author: Pell <S03027105@ccc.ccofc.edu>
+Date:   Thu Oct 19 12:43:27 2023 -0600
+
+    Two Cars
+
+[33mcommit e162282c2fb5cf45a9611d26dba7939c6ad03c4d[m
+Author: Pell <S03027105@ccc.ccofc.edu>
+Date:   Tue Oct 17 12:39:24 2023 -0600
+
+    Person
+
+[33mcommit a9ed360ca9947927b1e3a520c76d0b09adaf6a51[m
+Author: Pell <S03027105@ccc.ccofc.edu>
+Date:   Mon Oct 16 12:39:18 2023 -0600
+
+    My Car
+
+[33mcommit b4a973d52ee4437a715800fa3832d2ed86172cca[m
+Author: Pell <S03027105@ccc.ccofc.edu>
+Date:   Thu Oct 12 12:43:17 2023 -0600
+
+    Binary
+
+[33mcommit 15c8cb5d2bfc28e05b3d1ae915271da7ef9e522c[m
+Author: Pell <S03027105@ccc.ccofc.edu>
+Date:   Wed Oct 11 12:43:25 2023 -0600
+
+    Recursion Array
+
+[33mcommit c6ead811f8be37e3c84ce66b2ba4349f3adf4960[m
+Author: Pell <S03027105@ccc.ccofc.edu>
+Date:   Tue Oct 10 12:37:49 2023 -0600
+
+    recursion
+
+[33mcommit 00674f7c5701592eb65d05edde986f4bb73c4ad7[m
+Author: Pell <S03027105@ccc.ccofc.edu>
+Date:   Mon Oct 2 12:42:04 2023 -0600
+
+    Array
+
+[33mcommit ab7a2ef065a145ef22f0e90c559656c1f35903d2[m
+Author: Pell <S03027105@ccc.ccofc.edu>
+Date:   Thu Sep 28 12:29:36 2023 -0600
+
+    IndexOf
+
+[33mcommit f65501d3c0ebae0e370af3ac15754c85ebfd2e2a[m
+Author: Wonch <Robert.Wonch@frontrange.edu>
+Date:   Thu Sep 28 11:29:24 2023 -0600
+
+    test
+
+[33mcommit 71e71dbc48f7c4ddf2b02523bfae44717cd3920a[m
+Author: Pell <S03027105@ccc.ccofc.edu>
+Date:   Wed Sep 27 12:44:55 2023 -0600
+
+    canspell
+
+[33mcommit 5efaff46a50c9cc5c49ae9e79abc8a3a7baa55e9[m
+Author: Pell <S03027105@ccc.ccofc.edu>
+Date:   Mon Sep 25 12:44:46 2023 -0600
+
+    Doubloon
+
+[33mcommit ef17db11a92378dcd9bc91af1a0074eaa4d708db[m
+Author: Pell <S03027105@ccc.ccofc.edu>
+Date:   Mon Sep 25 12:33:58 2023 -0600
+
+    Doubloon
+
+[33mcommit d966dcdf231a31790191f7e302321daeeb4bc47a[m
+Author: Pell <S03027105@ccc.ccofc.edu>
+Date:   Thu Sep 21 12:30:01 2023 -0600
+
+    String
+
+[33mcommit 690ff425b7538cfd7130ea91be83c3f1b6cf6954[m
+Author: Pell <S03027105@ccc.ccofc.edu>
+Date:   Wed Sep 20 12:43:20 2023 -0600
+
+    Number Box
+
+[33mcommit b91b7908e4dfac962ed166bc95f82850d8b10893[m
+Author: Pell <S03027105@ccc.ccofc.edu>
+Date:   Tue Sep 19 12:36:47 2023 -0600
+
+    Methods.
+
+[33mcommit 4ebbd8cd34cf59d3142af324d2d6ec2b3811844b[m
+Author: Pell <S03027105@ccc.ccofc.edu>
+Date:   Mon Sep 18 12:44:52 2023 -0600
+
+    Return
+
+[33mcommit f6b0c93750a1ad38fa412bd834b6ec63bf3e6b11[m
+Author: Pell <S03027105@ccc.ccofc.edu>
+Date:   Wed Sep 13 12:38:30 2023 -0600
+
+    For the math to happen
+
+[33mcommit c2c9f49fe6fe7053a3bdedc99198faa8f377aa7e[m
+Author: Pell <S03027105@ccc.ccofc.edu>
+Date:   Tue Sep 12 12:43:52 2023 -0600
+
+    Random guess
+
+[33mcommit e11d74d773ad0c2c03cdb06c57004840dc29e1d9[m
+Author: Pell <S03027105@ccc.ccofc.edu>
+Date:   Mon Sep 11 12:45:30 2023 -0600
+
+    Year
+
+[33mcommit ddf736cbbe8b3ca335eb7a825e26001b179c3e01[m
+Author: Pell <S03027105@ccc.ccofc.edu>
+Date:   Fri Sep 8 12:40:29 2023 -0600
+
+    Cars
+
+[33mcommit 3215d912e3f892883e26494867aedc0fa176d23a[m
+Author: Pell <S03027105@ccc.ccofc.edu>
+Date:   Thu Sep 7 12:46:40 2023 -0600
+
+    cars
+
+[33mcommit 81cc5b6096c8be54f2790c34782aebd5b6c8e516[m
+Author: Pell <S03027105@ccc.ccofc.edu>
+Date:   Wed Sep 6 12:47:01 2023 -0600
+
+    Input
+
+[33mcommit 7e8a706fbd6b802ec768cb4911fba1a38ce0a3c5[m
+Author: Pell <S03027105@ccc.ccofc.edu>
+Date:   Tue Sep 5 12:40:09 2023 -0600
+
+    Date and song
+
+[33mcommit 2af0b122b06c79005ae233d1e3fcd44bd0c8edbe[m
+Author: Pell <S03027105@ccc.ccofc.edu>
+Date:   Thu Aug 31 12:44:08 2023 -0600
+
+    HelloWorld
+
+[33mcommit 1bf9ac424cd35635b451c32b525d507de89f5ce1[m
+Author: LeviPell03 <143744461+LeviPell03@users.noreply.github.com>
+Date:   Thu Aug 31 11:51:44 2023 -0600
+
+    Initial commit
