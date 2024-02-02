@@ -2,9 +2,19 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
+<<<<<<< HEAD
         System.out.println("\n");
         System.out.println("Hello World!");
         System.out.println("\n");
+=======
+            // I am going to tell Java to print "Hello World!" to the console.
+            System.out.println("\n");
+            System.out.println("Hello World!");
+<<<<<<< HEAD
+            
+=======
+            System.out.println("\n");
+>>>>>>> 2a818ee350d626bcc0ac394b1a5515d1b191463e
 
         // The date printed to the console
         int day = 1;
@@ -21,5 +31,6 @@ public class Main {
         System.out.println("\n");
         System.out.println("Today's date is " + day1 + "," + " " + month1 + "," + " " + year2 + "." + " It's a whole new year, I can't believe it.");
 
+>>>>>>> e2629a63e3fe9e6db4ec522f4926815be2bd3b75
         }
     }
