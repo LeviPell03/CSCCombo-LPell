@@ -12,7 +12,7 @@ public class Main {
         double donation;
         String hobby;
         // Below are my System.out and System.in lines of code. I tell Java something with a System.out and request a response from the user with a System.in.
-        System.out.print("What is your name?");
+        System.out.print(" Hey! What's your name?");
         name = in.nextLine();
         System.out.print("Where are you from?");
         location = in.nextLine();
@@ -25,7 +25,7 @@ public class Main {
         System.out.println();
         System.out.print("How much would you like to donate today?");
         donation = in.nextDouble();
-        System.out.println("You have donated " + "$" + donation + "." + " Thank you for your donation.");
+        System.out.println("You will donate " + "$" + donation + "." + " Thank you for your donation.");
         in.nextLine();
         System.out.println();
         System.out.print("What's something that you like to do?");
@@ -34,11 +34,11 @@ public class Main {
         // Here, I call my function "veryNiceToMeetYou" into main.
         System.out.println(veryNiceToMeetYou(name, location, age, donation, hobby));
         System.out.println();
-        System.out.println("Our goal here at SpaceX is to revolutionize space technology with the ultimate aim of enabling humanity to live on other planets. Thank you for telling me about yourself and for your very generous donation to SpaceX.");
+        System.out.println("Our goal here at SpaceX is to revolutionize space technology with the ultimate aim of enabling humanity to live on other planets. Thank you for telling us about yourself and for your very generous donation to SpaceX.");
     }
 
     public static String veryNiceToMeetYou(String name, String location, int age, double donation, String hobby) {
         // My function "veryNiceToMeetYou" returns a String.
-        return ("Hello," + name + " from " + location + "." + " You are " + age + " years old. " + "\n" + "Have fun the next time you " + hobby + "!" + "\n" + "You donated " + "$" + donation + " today. " + "Yay!");
+        return ("Hello," + name + " from" + location + "." + " You are " + age + " years old. " + "\n" + "Have fun the next time you" + hobby + "!" + "\n" + "You donated " + "$" + donation + " today. " + "Yay!");
     }
 }
