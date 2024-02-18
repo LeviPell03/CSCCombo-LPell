@@ -1,23 +1,33 @@
 import java.util.Scanner;
 
-public class Main {
-    public static void main(String[] args) {
-        //I told java to import a Scanner from its utility. Then, I made a new Scanner by telling Java to create one.
-        Scanner in = new Scanner(System.in);
+public static void main(String[] args) {
+    //  //I told java to import a Scanner from its utility. Then, I made a new Scanner by telling Java to create one.
+    Scanner in = new Scanner(System.in);
+    // My System.out is what I want to tell Java. Java prints what I say to the console for me.
+    System.out.print("Hey! Please enter a radius. Thank you. ");
+    System.out.println();
+    double radius = in.nextDouble();
+    // Adding my functions to main.
+    double diameter = getDiameter(radius);
+    double circumference = getCircumference(radius);
+    double area = getArea(radius);
+    // System.out for the diameter, area and circumference of a circle.
+    System.out.println("The diameter of your circle is: " + diameter);
+    System.out.println("The circumference of your circle is: " + circumference);
+    System.out.println("The area of your circle is: " + area);
+    System.out.println();
+    System.out.println("Thank you for using this program.");
+}
 
-        double radius;
-        // My System.out is what I want to tell Java. Java prints what I say to the console for me.
-        System.out.println("Hey! Please enter a radius. Thank you.");
-        // in.nextDouble will take the users input and print it to the console next.
-        radius = in.nextDouble();
-        // Functions for the diameter, area and circumference of a circle.
-        double diameter = 2 * radius;
-        double area = Math.PI * radius * radius;
-        double circumference = 2 * Math.PI * radius;
-        // Here I have called the functions in System.out to print the diameter, area circumference of the circle.
-        System.out.println(" The diameter of you circle is: " + diameter + "\n");
-        System.out.println("The area of your circle is: " + area + "\n");
-        System.out.println("The circumference of your circle is: " + circumference + "\n");
-        System.out.println("Thank you for using this program.");
-    }
+// Functions for the diameter, circumference and are of the circle.
+public static double getDiameter(double radius) {
+    return 2 * radius;
+}
+
+public static double getCircumference(double radius) {
+    return 2 * Math.PI * radius;
+}
+
+public static double getArea(double radius) {
+    return Math.PI * radius * radius;
 }
